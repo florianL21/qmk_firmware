@@ -28,4 +28,23 @@
 #define CAPS_LOCK_LED_INDEX 51
 
 /* Enable num-lock LED */
-// #define NUM_LOCK_LED_INDEX 31
+#define NUM_LOCK_LED_INDEX 31
+
+#define LEFT_SHIFT_LED_INDEX 69
+
+#define RIGHT_SHIFT_LED_INDEX 81
+
+
+/* Custom modifications */
+// left shift
+#define LSPO_KEYS KC_LSFT, KC_LSFT, KC_8
+#define RSPC_KEYS KC_RSFT, KC_LSFT, KC_9
+// control
+#define LCPO_KEYS KC_LCTL, KC_RALT, KC_7
+#define RCPC_KEYS KC_RCTL, KC_RALT, KC_0
+// alt
+#define LAPO_KEYS KC_LALT, KC_RALT, KC_8
+#define RAPC_KEYS KC_RALT, KC_RALT, KC_9
+
+
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD

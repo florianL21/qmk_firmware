@@ -3,6 +3,7 @@
     "manufacturer": "Keychron",
     "url": "https://github.com/Keychron",
     "maintainer": "lalalademaxiya1",
+    "host_language": "german",
     "usb": {
         "vid": "0x3434",
         "pid": "0x0153",
